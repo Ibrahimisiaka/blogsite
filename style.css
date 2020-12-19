@@ -1,0 +1,95 @@
+/* Utility style */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Body style */
+
+body {
+    background-color: #F1F1F1;
+    font-family: "Raleway", sans-serif;
+}
+
+
+/* List style */
+
+li {
+    list-style: none;
+}
+
+
+/* The style below gives a box-shadow style */
+
+.shadow {
+    box-shadow: 8px 4px 8px (0, 0, 0, .8);
+}
+
+
+/* Header style */
+
+header {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+    padding: 50px;
+}
+
+header p {
+    font-weight: 300;
+}
+
+header span {
+    border-style: solid;
+    color: #000000;
+    padding: 5px;
+}
+
+
+/* Blog Post Card style */
+
+.card-body a {
+    color: #ffffff;
+    background-color: #000000;
+    text-decoration: none;
+    padding-bottom: 0;
+    padding: 15px;
+}
+
+.card-body .comment {
+    color: #000000;
+    text-decoration: none;
+    padding: 15px;
+}
+
+
+/* About Me section style */
+
+.about-me {
+    box-shadow: 8px 4px 8px rgba(65, 53, 53, 0.8)
+}
+
+
+/* Popular Post style */
+
+.popular-post {
+    box-shadow: 8px 4px 8px rgba(65, 53, 53, 0.8)
+}
+
+.popular-post .pp-top {
+    background-color: #30b5d6;
+    color: #fff;
+}
+
+.popular-post ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.popular-post ul li a:hover {
+    background-color: #8acacf;
+}
